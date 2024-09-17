@@ -14,6 +14,12 @@ bool rakuraku::OneTrigger(bool input)
     return 0;
 }
 
+bool rakuraku::CheatTrigger()
+{
+    before_trigger = true;
+    return 0;
+}
+
 int rakuraku::flipSwitch(int input1, int input2)
 {
     if (before_state == true) {

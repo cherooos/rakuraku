@@ -5,6 +5,7 @@ class rakuraku
 {
 public:
     bool OneTrigger(bool input);
+    bool CheatTrigger();
     int flipSwitch(int input1, int input2);
 
 private:
